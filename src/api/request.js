@@ -5,6 +5,5 @@ export const getBannerRequest = () => {
 }
 
 export const getRecommendListRequest = () => {
-  console.log('131412')
   return axiosInstance.get('/personalized')
 }

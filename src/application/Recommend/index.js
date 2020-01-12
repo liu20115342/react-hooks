@@ -4,8 +4,9 @@ import { connect } from 'react-redux'
 import * as actionTypes from './store/actionCreators'
 
 const mapStateProps = (state) => ({
-    bannerList: state.getIn(['recommend', 'bannerList']),
+  bannerList: state.getIn(['recommend', 'bannerList']),
   recommendList: state.getIn(['recommend', 'recommendList']),
+  enterLoading: state.getIn(['recommend', 'enterLoading'])
 })
 const mapDispatchToState = (dispatch) => {
   return {
