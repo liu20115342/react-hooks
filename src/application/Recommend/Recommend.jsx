@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import { forceCheck } from 'react-lazyload'
-import Scroll from '../../components/Scroll'
+import Scroll from '../../components/baseUI/Scroll'
 import Slider from '../../components/Sider'
 import RecommendList from '../../components/RecommendList'
 import { Content } from './style'
